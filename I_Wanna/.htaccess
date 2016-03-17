@@ -1,0 +1,18 @@
+Options -Indexes
+
+RewriteEngine on
+
+ErrorDocument 404 /I_Wanna/app/controller/siteController.php?action=error
+
+# Site
+RewriteRule ^$ app/controller/siteController.php?action=home [QSA,L]
+RewriteRule ^Character/?$ app/controller/siteController.php?action=char [QSA,L]
+RewriteRule ^Login/?$ app/controller/siteController.php?action=login [QSA,L]
+RewriteRule ^Logout/?$ app/controller/siteController.php?action=logout [QSA,L]
+RewriteRule ^Registration/?$ app/controller/siteController.php?action=regi [QSA,L]
+RewriteRule ^Register/?$ app/controller/siteController.php?action=registration [QSA,L]
+RewriteRule ^Mobile/?$ app/controller/siteController.php?action=mobi [QSA,L]
+RewriteRule ^Contact-Us/?$ app/controller/siteController.php?action=cont [QSA,L]
+RewriteRule ^Edit/?$ app/controller/siteController.php?action=edit [QSA,L]
+RewriteRule ^Comment/?$ app/controller/postController.php?action=comm [QSA,L]
+RewriteRule ^Delete/?$ app/controller/postController.php?action=delete [QSA,L]
