@@ -1,0 +1,15 @@
+Alex and Sayan: 
+1. Add outside source functions:
+      Twitter/Facebook login
+      Twitter posting
+      YouTube video (optional)
+      Google calendar (optional)
+      Donate Money to Me. (mandatory)
+2. Improve code using Ajax, XML, JSON
+3. Implement a separate login page and anonymous comment function
+4. Please get them done by next Thursday so I can go all night and finish them :3
+
+Derrick:
+1. Set up the openstack server
+2. Write document
+3. submission
