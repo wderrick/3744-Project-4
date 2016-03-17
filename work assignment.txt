@@ -9,6 +9,8 @@ Alex and Sayan:
 3. Implement a separate login page and anonymous comment function
 4. Please get them done by next Thursday so I can go all night and finish them :3
 
+Website: login: derrickwang 12341234
+
 Derrick:
 1. Set up the openstack server
 2. Write document
